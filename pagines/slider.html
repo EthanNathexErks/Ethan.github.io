@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <link rel='icon' href='../favicon.ico' type='image/x-icon'/ >
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/37d5945951.js" crossorigin="anonymous"></script>
+    <title>Mostra de Treballs Ethan Martí</title>
+</head>
+<body>
+ <div class="contenidor">
+ <div class="contenidor-xxss">
+ <a href="https://www.twitter.com/eth_erk"><i class="fab fa-twitter"></i></a>
+ <a href="#"><i class="fab fa-behance"></i></a>
+ 
+ 
+ </div>
+ <nav>
+  <h1 class="shadow">Mostra de Treballs</h1>
+ </nav>
+ <div class="contenidor-flex">
+ <a href="../index.html" class="boto-flex">Inici</a>
+ <a href="cv.html" class="boto-flex">Currículum</a>
+ <a href="slider.html" class="boto-flex actiu">Mostra de feines</a>
+ <a href="#" class="boto-flex">Contacte</a>
+ </div>
+ <div class="contenidor-imatge">
+  <div class="container-slider">
+                    <img class="mySlides" src="../media/imatges/imatgep1.jpeg" style="width:100%">
+                    <img class="mySlides" src="../media/imatges/imatgep2.jpeg" style="width:100%">
+                    <img class="mySlides" src="../media/imatges/imatgep3.jpeg" style="width:100%">
+
+                    <button class="boton-slider fletxaDreta-slider"  onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="boton-slider fletxaEsquerra-slider" onclick="plusDivs(1)">&#10095;</button>
+                       <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = x.length
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex - 1].style.display = "block";
+            }
+
+        </script>
+            </div>
+     </div>
+     <div class="contenidor-text">Aquesta és una mostra de les meves feines més representatives durant el <strong>Cicle Formatiu d'Animacions 3D, Jocs i Entorns Interactius</strong>. També em podeu seguir a través de les meves xarxes socials <a href="https://www.twitter.com/eth_erk">Twitter</a> i Behance
+ </div>
+ </div>
+ <div class="contenidor-footer">Ethan Martí · Tlf: 123 456 479 · ethan.marti@uvic.cat</div>
+</body>
+</html>
