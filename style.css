@@ -333,13 +333,15 @@ hr{
     
 }
 #eines {
-  
+  border: 0px;
+    border-radius: 0px ;
   
   padding: 5px;
   width: 100px;
 }
 #eines2 {
-  
+  border: 0px;
+    border-radius: 0px ;
   
   padding: 5px;
   width: 250px;
