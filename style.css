@@ -175,6 +175,10 @@ border-color: transparent;
  border-radius:5px;
      border-bottom: 1px solid #ffbd0a;
     border-top: 1px solid #ffbd0a;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3; 
+   
        
    
 }
