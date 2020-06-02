@@ -281,6 +281,17 @@ background-color: black;
     column-count: 1; 
    
 }   
+        .contenidor-text {
+ margin: -1%;
+ padding: 10px;
+ /*mostrar*/
+ border: 1px solid transparent;
+ border-radius:5px;
+     border-bottom: 1px solid #ffbd0a;
+    border-top: 1px solid #ffbd0a;
+    
+   
+}
 }
 
 
