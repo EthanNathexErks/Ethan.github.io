@@ -266,9 +266,21 @@ background-color: black;
  .imatge2 {
  width: 100%;
  display: block;
- width: 100%;
- }
 
+ }
+ .contenidor-text2 {
+ margin: -15%;
+ padding: none;
+ /*mostrar*/
+ border: none;
+ border-radius:5px;
+     border-bottom: none;
+    border-top: none;
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1; 
+   
+}   
 }
 
 
