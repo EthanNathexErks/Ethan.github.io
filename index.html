@@ -2,25 +2,29 @@
 <html lang="en">
 <head>
    <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+   <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" type="text/css" href="style.css">
+
+   
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto:400,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/37d5945951.js" crossorigin="anonymous"></script>
     <script src="js/jquery.js"></script> 
     <script src="js/mediaelement-and-player.js"></script>
-    <link href="css/mediaelementplayer.css" rel="stylesheet">
+    <link href="mediaelementplayer.css" rel="stylesheet">
       
       <script src="plugins/source-chooser-i18n.js"></script>    
      <script src="plugins/source-chooser.js"></script>    
-     <link href="plugins/source-chooser.css" rel="stylesheet"> 
+     <link href="source-chooser.css" rel="stylesheet"> 
       
       <script src="plugins/jump-forward-i18n.js"></script>    
      <script src="plugins/jump-forward.js"></script>    
-     <link href="plugins/jump-forward.css" rel="stylesheet">
+     <link href="jump-forward.css" rel="stylesheet">
       
      <script src="plugins/skip-back-i18n.js"></script>    
      <script src="plugins/skip-back.js"></script>    
-     <link href="plugins/skip-back.css" rel="stylesheet">
+     <link href="skip-back.css" rel="stylesheet">
     <title>Portfoli Ethan Martí</title>
 
 </head>
@@ -33,8 +37,8 @@
  
  </div>
  <nav>
- <h1 class="shadow">Ethan Martí</h1>
-     <h1 class="tit">Tècnic Informàtic i Estudiant de Animació 3D</h1>
+ <h1 class="shadow">Ethan 'Ethanol' Martí</h1>
+     <h1 class="tit">Técnico Informatico, Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos y Estudiante en Relaciones Internacionales.</h1>
  </nav>
  <div class="contenidor-flex">
  <a href="#presentacio" class="boto-flex">Presentació</a>
@@ -43,28 +47,31 @@
  <a href="#contacte" class="boto-flex">Contacte</a>
  </div>
  <div class="contenidor-imatge">
- <video id="demoreel" controls="controls" class="imatge1"
+ <video id="demoreel" onloadstart="this.volume=0.1" controls="controls" class="imatge1"
            width="100%" height="100%" poster="media/imatges/imatge3.png">
-            <source width="1400" height="700" src="media/video/demoreel.mp4" type="video/mp4" />
-            <source width="1400" height="700" src="media/video/demoreel.webm" type="video/webm" />
+            <source width="1400" height="700" src="media/video/demoreelanim.mp4" onloadstart="this.volume=0.2" type="video/mp4" /> 
             </video>
 
-     <video id="demoreel" controls="controls" class="imatge2"
+     <video id="demoreel" onloadstart="this.volume=0.1" controls="controls" class="imatge2"
            width="100%" height="100%" poster="media/imatges/imatge4.png">
-            <source width="1400" height="700" src="media/video/demoreel2.mp4" type="video/mp4" />
-            <source width="1400" height="700" src="media/video/demoreel2.webm" type="video/webm" />
+            <source width="1400" height="700" src="media/video/demoreelanim.mp4" onloadstart="this.volume=0.2" type="video/mp4" />
+        
             </video>
+     
  </div>
-     <br><h1 class="shadow">Presentació</h1>
-     <div class="contenidor-text2" id="presentacio">
-         <br>
+       
+
+     <br>
+    <h1 class="shadow">Presentació</h1>
+     <div class="contenidor-text2" id="presentacio">    
+        <br>
          <p id="tit2">Sóc Ethan Martí, Tècnic Informàtic i estudiant d'Animació 3D, Jocs i Entorns Interactius.</p><p>
-         Pel que fa al primer títol, aquest només significa la finalització dels estudis de Sistemes microinformàtics i xarxes amb els quals podria tenir més o menys nivell, però puc assegurar que el meu nivell és molt alt, en aquest nivell almenys i sobretot en tasques que poden costar moltíssim a algú de nivell usuari, també puc improvisar molt fàcilment per l'alta experiència que tinc en el tracte amb ordinadors i qualsevol aparell informàtic, si em preguntessis quan vaig començar a passar pràcticament tot el dia amb un ordinador, probablement em costaria trobar una resposta, ja que se'n del 2000 pràcticament vaig créixer apegat al teclat de manera exagerada (per posar context, la majoria de gent del 99-01 amb la que inclús vaig estudiar aquest cicle, no coneixien coses com el Messenger de Microsoft o no havien tocat pràcticament el Windows XP o Vista, dos sistemes operatius amb els quals pràcticament vaig créixer), així que crec poder ser útil en qualsevol empresa que requereixi un mínim nivell informàtic.
+         Pel que fa al primer títol, aquest només significa la finalització dels estudis de Sistemes microinformàtics i xarxes amb els quals podria tenir més o menys nivell, però puc assegurar que el meu nivell és molt alt, en aquest nivell almenys i sobretot en tasques que poden costar moltíssim a algú de nivell usuari, també puc improvisar molt fàcilment per l'alta experiència que tinc en el tracte amb ordinadors i qualsevol aparell informàtic, si em preguntessis quan vaig començar a passar pràcticament tot el dia amb un ordinador, probablement em costaria trobar una resposta, ja que se'n del 2000 pràcticament vaig créixer apegat al teclat de manera exagerada (per posar context, la majoria de gent del 99-01 amb la que inclús vaig estudiar aquest cicle, no coneixien coses com el Messenger de Microsoft, Emule, HDD's IDE o no havien tocat pràcticament el Windows XP o Vista, dos sistemes operatius amb els quals pràcticament vaig créixer), així que crec poder ser útil en qualsevol empresa que requereixi un mínim nivell informàtic.
 </p><p>
          Pel que fa als meus estudis actuals, la meva motivació no es molt alta ja que no ho he sentit com algo passional, encara així, la majoria de treballs que he ficat com a mostres tenen com a molt entre 2 dies i una semana de treball i gracies, crec que on tinc més coneixement que aplicar és en la creació de webs, tinc un alt coneixement en la edició de html's i arxius css, se com funciona Wordpress, Prestashop i molts de plugins que s'utilitzen actualment a molts llocs web, tambe tinc un minim de coneixement amb javascript (encara que molt inferior als altres dos), un altra cosa que s'em dona bé es la edició de fotografies o edició gràfica, baix ficare algun exemple actual i algun exemple vell, ja que porto molt desconectat de la edició desde 2015-16, així que probablement ficare algun treball actual amb algun treball de 2014, crec que aprenc rapid i la veritat es que m'entreteneixo bastant i se admetre i arreglar els errors de la edició.
          </p><p>
          Després tenim animació 2D i 3D, crec que no li he dedicat el temps que tindria i per tant el que he fet s'ha vist afectat pel poc temps dedicat, la majoria d'animacions 2D estan fetes amb 1 dia o 2, mentre que les 3D fins al moment les he fet amb poques hores. (Aniré actualitzant el demoreel i les mostres)
-        </p> <p>
+         </p><p>
          Respecte a modelatge no tinc molt d'interès, he fet el demanat a classe i he sigut molt regular sobretot amb texturització i rigging.
          </p><p>
          i per finalitzar tenim disseny de videojocs amb Unity i Javascript, quant a això (actualitzar part de Unity), crec que no sóc dolent programant amb JS i entenc el codi relativament fàcil, però no ho aguanto i per tant m'agradaria evitar-ho si puc. Per altra banda el més interessant aquí han sigut els moments de fer anàlissis i debati sobre temes, el qual gaudeixo moltíssim i crec que no se'm dóna malament, tinc molta experiència amb el camp videojocs, jugant i fen de "gamemaster" a jocs com World of Warcraft (servidors privats, en cas de voler saber quins contacter per privat) o Minecraft i he tingut molt de contacte amb persones de gran importància (en els servidors privats de Warcraft), també gràcies a això tinc experiència amb el tracte al client.
@@ -81,51 +88,43 @@
      
      <div class="contenidor-text" id="eines1">
              <h1 class="shadow">Eines</h1>
-         <img id="eines" src="Imatges/psd.png" alt="eines1"><img id="eines" src="Imatges/pro.png" alt="eines2"><img id="eines" src="Imatges/ai.png" alt="eines3"><img id="eines" src="Imatges/word.png" alt="eines4"><img id="eines" src="Imatges/excel.png" alt="eines5"><img id="eines" src="Imatges/power.png" alt="eines6"><img id="eines" src="Imatges/acronis.png" alt="eines7"><img id="eines" src="Imatges/html.png" alt="eines8"><img id="eines" src="Imatges/css.png" alt="eines9"><img id="eines" src="Imatges/wordpress.png" alt="eines10"><img id="eines" src="Imatges/prestashop.png" alt="eines11"><img id="eines" src="Imatges/maya.png" alt="eines12">
+         <img id="eines" src="Imatges/psd.png" alt="eines1"><img id="eines" src="Imatges/pro.png" alt="eines2"><img id="eines" src="Imatges/ai.png" alt="eines3"><img id="eines" src="Imatges/maya.png" alt="eines12"><img id="eines" src="Imatges/word.png" alt="eines4"><img id="eines" src="Imatges/excel.png" alt="eines5"><img id="eines" src="Imatges/power.png" alt="eines6"><img id="eines" src="Imatges/html.png" alt="eines8"><img id="eines" src="Imatges/css.png" alt="eines9"><img id="eines" src="Imatges/php.png" alt="eines22"><img id="eines" src="Imatges/mysql.png" alt="eines20"><img id="eines" src="Imatges/apache.png" alt="eines21"><img id="eines" src="Imatges/wordpress.png" alt="eines10"><img id="eines" src="Imatges/prestashop.png" alt="eines11"><img id="eines" src="Imatges/zentyal.png" alt="eines24"><img id="eines" src="Imatges/bind9.png" alt="eines23"><img id="eines" src="Imatges/acronis.png" alt="eines7">
          <h1 class="tit">Powered by</h1>
-         <img id="eines" src="Imatges/ryzen.png" alt="eines13"><img id="eines2" src="Imatges/5700.png" alt="eines14"><img id="eines" src="Imatges/ram.png" alt="eines15">
+         <img id="eines" src="Imatges/ryzen.png" alt="eines13"><img id="eines" src="Imatges/5700.png" alt="eines14"><img id="eines" src="Imatges/ram.png" alt="eines15"><img id="eines" src="Imatges/x570.png" alt="eines16"><img id="eines" src="Imatges/psu.png" alt="eines17"><img id="eines" src="Imatges/ssd.png" alt="eines18"><img id="eines" src="Imatges/hdd.png" alt="eines19">
          </div>
      <br>
-     <div class="contenidor-text" id="mostres">
+      <div class="contenidor-text" id="mostres">
          <h1 class="shadow">Mostra de feines</h1>
          (S'adapta a la pantalla, per obtindre la resolució correcta, click dret -> ver imagen)
          
          <br><br>
          
-         <link href="CSS/w3.css" rel="stylesheet"/>
+         <link href="w3.css" rel="stylesheet"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
          
          <div class="contenidor-text">
-             <a href="https://myanimelist.net/profile/Nathex7"><h1 class="shadow" >MyAnimeList Custom</h1></a>
-             
-  <div class="w3-content w3-display-container slider" id="div1">
-      
-                    <img class="mySlides"  src="Imatges/Nathex7.png" style="width:100%">
-                    <img style="display: block;margin-left: auto;margin-right: auto;" class="mySlides"  src="imatges/test.gif" style="width:50%">     
-                    <img class="mySlides"  src="Imatges/banner.png" style="width:100%">
-      
-      <a class="w3-btn-floating w3-display-left" onclick="plusDivs(this,-1)">&#10094;</a>
-  <a class="w3-btn-floating w3-display-right" onclick="plusDivs(this,1)">&#10095;</a>
-              </div>
+             <a href="https://www.youtube.com/channel/UCiRbRWMP6wnD2CVxjAQmFSw"><h1 class="shadow" >Awake: Fear the Knowledge (UE4 Survival Horror)</h1></a>
+              <center> <iframe width="1400" height="700" src="https://www.youtube.com/embed/v46QU-odPJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+             <a href="https://drive.google.com/file/d/1T6iuFQ9tl_HSOFMD6b9-i9oKbfFnm01f/view?usp=sharing"> <h1 class="shadow" ><center>¡Descarga la demo!</center> </h1> </a>
+  
              
              </div>                                           
 <br>
          
          <div class="contenidor-text"> 
-         <h1 class="shadow">2014-15</h1>
+         <h1 class="shadow">Modelado 3D</h1>
               <div class="container-slider">
                   
 <div class="w3-content w3-display-container slider" id="div2">
     
-      <img class="mySlides"  src="Imatges/qwyph.png" style="width:100%">
+      <img class="mySlides"  src="Imatges/Peter1.png" style="width:100%">
 
-      <img class="mySlides"  src="Imatges/sign.png" style="width:100%">
+      <img class="mySlides"  src="Imatges/Peter3.PNG" style="width:100%">
 
-      <img class="mySlides"  src="Imatges/lyswh.png" style="width:100%">
+      <img class="mySlides"  src="Imatges/Peter4.PNG" style="width:100%">
 
-      <img class="mySlides"  src="Imatges/epicax.png" style="width:100%">
-
-      <img class="mySlides" src="Imatges/clannad.gif" style="width:100%">
+    <img class="mySlides"  src="Imatges/Glock17.png" style="width:100%">
+    <img class="mySlides"  src="Imatges/Glock172.png" style="width:100%">
     
     <a class="w3-btn-floating w3-display-left" onclick="plusDivs(this,-1)">&#10094;</a>
   <a class="w3-btn-floating w3-display-right" onclick="plusDivs(this,1)">&#10095;</a>
@@ -136,12 +135,16 @@
          <br>
           <div class="contenidor-text">
               
-             <h1 class="shadow" >Pagines web</h1>
+             <h1 class="shadow" >Páginas web</h1>
              
   <div class="container-slider">
 <div class="w3-content w3-display-container slider" id="div3">
                     <img class="mySlides"  src="Imatges/eastside.png" style="width:100%">
-      
+      <img class="mySlides"  src="Imatges/theojos.png" style="width:100%">
+   <img class="mySlides"  src="Imatges/theojos2.png" style="width:100%">
+   <img style="display: block;margin-left: auto;margin-right: auto;" class="mySlides"  src="Imatges/theojos3.png" style="width:100%">
+   <img class="mySlides"  src="Imatges/theojos4.png" style="width:100%">
+   <img class="mySlides"  src="Imatges/theojos5.png" style="width:100%">
       <a class="w3-btn-floating w3-display-left" onclick="plusDivs(this,-1)">&#10094;</a>
   <a class="w3-btn-floating w3-display-right" onclick="plusDivs(this,1)">&#10095;</a>
       
@@ -153,17 +156,34 @@
                   <br>
           <div class="contenidor-text">
               
-             <h1 class="shadow" >Animació</h1>
+             <h1 class="shadow" >Animación</h1>
              
   <div class="container-slider">
       <div class="w3-content w3-display-container slider" id="div4">
                     <img class="mySlides"  src="Imatges/west.gif" style="width:100%">
+         <img class="mySlides"  src="Imatges/Ekko.gif" style="width:100%">
+         <img class="mySlides"  src="Imatges/west2.gif" style="width:100%">
+          <img class="mySlides"  src="Imatges/Westrun.gif" style="width:100%">
+         <img class="mySlides"  src="Imatges/joc.gif" style="width:100%">
+ <video id="demoreel" onloadstart="this.volume=0.1" controls="controls" class="mySlides"
+           width="100%" height="100%" >
+            <source width="1400" height="700" src="media/video/A3DLogo(MP4).mp4" onloadstart="this.volume=0.2" type="video/mp4" /> 
+            </video>
+           <video id="demoreel" onloadstart="this.volume=0.1" controls="controls" class="mySlides"
+           width="100%" height="100%" >
+            <source width="1400" height="700" src="media/video/Walle.mp4" onloadstart="this.volume=0.2" type="video/mp4" /> 
+            </video>
+          
           
           <a class="w3-btn-floating w3-display-left" onclick="plusDivs(this,-1)">&#10094;</a>
   <a class="w3-btn-floating w3-display-right" onclick="plusDivs(this,1)">&#10095;</a>
               </div>              
 </div>
              </div>
+                            
+
+
+         
 <script>
 var sliderObjects = [];
 createSliderObjects();
@@ -213,12 +233,11 @@ function showDivs(divObject, n) {
      <br>
            <div class="contenidor-text" id="contacte">
              <h1 class="shadow">Contacte</h1> 
-               
-               <p class="shadow2"><a href="https://Twitter.com/eth_erk" >Twitter</a> <a href="https://t.me/Nathex7">Telegram </a><img id="ethan" src="Imatges/Ethan.jpg" style="width:20%"><a href="https://www.youtube.com/user/ErksDemos/"> Youtube</a> <a href="https://myanimelist.net/profile/Nathex7"> MyAnimeList</a></p>
+               <p class="shadow2"><a href="https://Twitter.com/eth_erk">Twitter</a> <a href="https://t.me/Nathex7">Telegram </a><img id="ethan" src="Imatges/Ethan2.jpg" style="width:20%"><a href="https://www.youtube.com/channel/UCBBmsfWRgYUgsyEtDPmgo7A"> Youtube</a> <a href="https://drive.google.com/file/d/1MPLSbCbq77YNHXDazIsOhRfoij_8_qOf/view?usp=sharing">Descargar CV</a></p>
      </div>
     
      </div>
  </div>
- <div class="contenidor-footer">Ethan 'Nathex' Martí · Telegram: @Nathex7 · Ethan.teidedigital@gmail.com</div>
+ <div class="contenidor-footer">Ethan 'Ethanol' Martí · Telegram: @Nathex7 · ethanmarti.s7@gmail.com</div>
 </body>
 </html>
