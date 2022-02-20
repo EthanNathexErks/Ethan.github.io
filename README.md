@@ -1,2 +1,2 @@
-# EthanNathexErks.github.io
+# Ethan.github.io
 Portfoli Ethan Martí / Personal
